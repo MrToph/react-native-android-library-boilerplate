@@ -20,7 +20,7 @@ This project serves as a boilerplate to create custom React Native native module
 
         and adjust it in `index.android.js`
 3. Modify/Build the Project in Android Studio
-    * Start `Android Studio` and select `File -> New -> Import Project` and select the `android` folder of this package.
+    * Start `Android Studio` and select `File -> New -> Import Project` and select the **android** folder of this package.
     * If you get a `Plugin with id 'android-library' not found` Error, install `android support repository`.
     * If you get asked to upgrade _gradle_ to a new version, you can skip it.
 
