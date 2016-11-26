@@ -1,0 +1,27 @@
+{
+  "name": "react-native-android-library-boilerplate",
+  "version": "0.0.1",
+  "author": "Christoph Michel http://cmichel.io",
+  "private": false,
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrToph/react-native-android-library-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MrToph/react-native-android-library-boilerplate/issues"
+  },
+  "homepage": "https://github.com/MrToph/react-native-android-library-boilerplate",
+  "keywords": [
+    "react-native",
+    "android",
+    "library"
+  ],
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.38.0"
+  }
+}
