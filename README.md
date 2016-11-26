@@ -26,9 +26,11 @@ This project serves as a boilerplate to create custom React Native native module
 
 ## Installing it as a library in your main project
 There are many ways to do this, here's the way I do it:
+
 1. Push it to **GitHub**.
 2. Do `npm install --save git+https://github.com/MrToph/react-native-app-launcher.git` in your main project.
 3. Simply `import/require` it by the name defined in your library's `package.json`:
-```
-import Boilerplate from 'react-native-android-library-boilerplate'
-```
+    ```javascript
+    import Boilerplate from 'react-native-android-library-boilerplate'
+    ```
+4. You can directly import the `node_modules` library into **Android Studio** which makes it easy to test and develop.
