@@ -23,3 +23,12 @@ This project serves as a boilerplate to create custom React Native native module
     * Start `Android Studio` and select `File -> New -> Import Project` and select the `android` folder of this package.
     * If you get a `Plugin with id 'android-library' not found` Error, install `android support repository`.
     * If you get asked to upgrade _gradle_ to a new version, you can skip it.
+
+## Installing it as a library in your main project
+There are many ways to do this, here's the way I do it:
+1. Push it to **GitHub**.
+2. Do `npm install --save git+https://github.com/MrToph/react-native-app-launcher.git` in your main project.
+3. Simply `import/require` it by the name defined in your library's `package.json`:
+```
+import Boilerplate from 'react-native-android-library-boilerplate'
+```
