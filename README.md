@@ -33,4 +33,4 @@ There are many ways to do this, here's the way I do it:
     ```javascript
     import Boilerplate from 'react-native-android-library-boilerplate'
     ```
-4. You can directly import the `node_modules` library into **Android Studio** which makes it easy to test and develop.
+4. You can test and develop your library by importing the `node_modules` library into **Android Studio** if you don't want to install it from _git_ all the time.
